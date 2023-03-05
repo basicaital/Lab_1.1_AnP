@@ -63,7 +63,6 @@ public class RecordCountry2 {
         double s=0;
         for (int i = 0; i < cntr.length; i++)
             s+=cntr[i].square;
-        16
         double sr=s/cntr.length;
         return sr;
     }
@@ -100,7 +99,6 @@ public class RecordCountry2 {
         Scanner sc=new Scanner(System.in,"cp1251");
         System.out.print("Введите количество стран=> ");
         int n=sc.nextInt(); // количество стран
-        17
         Strana country[]= setCountryArr(n); // ввод информации о странах
 
         System.out.println("\nХарактеристики стран:");

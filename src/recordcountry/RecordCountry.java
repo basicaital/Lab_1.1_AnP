@@ -1,3 +1,5 @@
+package recordcountry;
+
 import java.util.Scanner;
 class Strana{
     public int length;
@@ -70,4 +72,4 @@ public class RecordCountry {
     }
     }
     }
-}
+
